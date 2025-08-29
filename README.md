@@ -9,7 +9,7 @@ The dataset contains brain MRI scans with **segmentation masks** that label tumo
 - Images were preprocessed (grayscale, resizing to 256×256, normalization).  
 - CLAHE and Gaussian blur were used to enhance contrast and improve model performance.  
 ---
-## Method
+## Method 
 - **Model**: Standard U-Net (encoder–bottleneck–decoder structure with skip connections).  
 - **Loss Functions**: Tested Dice+Binary Cross Entropy, and Binary Cross Entropy alone.  
 - **Training**: Up to 50 epochs with early stopping.  

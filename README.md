@@ -2,9 +2,10 @@
 ---
 
 ## Overview
-This project applies a **U-Net model** for brain tumor segmentation from MRI scans. The main idea is to automatically detect and highlight tumor regions, making the process faster and more reliable compared to manual segmentation by doctors.
----
 
+This project applies a **U-Net model** for brain tumor segmentation from MRI scans. The main idea is to automatically detect and highlight tumor regions, making the process faster and more reliable compared to manual segmentation by doctors.
+
+---
 ## Dataset
 The dataset contains brain MRI scans with **segmentation masks** that label tumor areas.  
 - Images were preprocessed (grayscale, resizing to 256×256, normalization).  
